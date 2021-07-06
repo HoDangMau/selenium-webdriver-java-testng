@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
-public class Topic04_Xpath_Css {
+public class Topic04_Xpath_Css_l {
 	// Set variable
 	WebDriver driver;
 
