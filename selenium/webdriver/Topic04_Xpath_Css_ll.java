@@ -38,7 +38,7 @@ public class Topic04_Xpath_Css_ll {
 	@BeforeClass
 	public void beforeClass() {
 		// Open Firefox browser
-		// System.setProperty("webdriver.gecko.driver",".\\browserDrivers\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver",".\\browserDrivers\\geckodriver.exe");
 		driver = new FirefoxDriver();
 
 		// Set timeout to find elements
