@@ -114,7 +114,7 @@ public class Topic06_Web_Element_Command_ll {
 		Assert.assertFalse(isElementSelected(developmentCheckbox));
 		Assert.assertFalse(isElementSelected(javaCheckbox));	
 	}
-
+	
 	@AfterClass
 	public void afterClass() {
 		driver.quit();
