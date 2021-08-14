@@ -136,9 +136,9 @@ public class Topic08_Default_Dropdown_List {
 		}
 	}
 
-//	@AfterClass
-//	public void afterClass() {
-//		driver.quit();
-//	}
+	@AfterClass
+	public void afterClass() {
+		driver.quit();
+	}
 
 }
