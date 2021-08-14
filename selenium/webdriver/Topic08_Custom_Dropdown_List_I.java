@@ -32,7 +32,7 @@ public class Topic08_Custom_Dropdown_List_I {
 		// wait to apply statuses of element (visible/ invisible/ presence/ clickable)
 		explicitWait = new WebDriverWait(driver, 15);
 		
-		// ép kiểu tường minh (Reference casting)
+		// ep kieu tuong minh (Reference casting)
 		jsExecutor = (JavascriptExecutor) driver;
 		
 		//wait to find element (findElement / findElements)
