@@ -166,7 +166,7 @@ public class Topic08_Custom_Dropdown_List_I {
 		selectItemInEdittableDropdown(By.cssSelector("div#default-place>input"), By.xpath("//ul[@class='es-list' and @style]/li"), "Audi");
 	}
 	
-	//@Test
+	@Test
 	public void TC_07_Editable() {
 		driver.get("https://react.semantic-ui.com/maximize/dropdown-example-search-selection/");
 
