@@ -43,4 +43,12 @@ public class Topic_00_Template {
 		driver.quit();
 	}
 	
+	public void sleepInSecond(long timeoutInSecond) {
+		try {
+			Thread.sleep(timeoutInSecond * 1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+	
 }
