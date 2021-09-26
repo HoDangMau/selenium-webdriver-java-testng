@@ -9,12 +9,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
 
 public class Topic12_Popup {
 	WebDriver driver;
@@ -108,6 +108,8 @@ public class Topic12_Popup {
 			driver.findElement(By.cssSelector("div.shopee-popup__close-btn")).click();
 			sleepInSecond(2);
 			Assert.assertEquals(driver.findElements(shopeePopupBy).size(), 0);
+		} else {
+			System.out.println("-----------------------Popup doesn't display and go to next steps-----------------");
 		}
 
 		// Step 3
@@ -138,6 +140,7 @@ public class Topic12_Popup {
 			}
 		};
 		return explicitWait.until(jQueryLoad);
+		
 	}
 
 }
