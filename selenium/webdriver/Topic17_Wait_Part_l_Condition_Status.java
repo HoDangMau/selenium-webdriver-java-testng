@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
-public class Topic17_Wait_Part_l {
+public class Topic17_Wait_Part_l_Condition_Status {
 	WebDriver driver;
 	WebDriverWait explicitWait;
 	String projectPath = System.getProperty("user.dir");
