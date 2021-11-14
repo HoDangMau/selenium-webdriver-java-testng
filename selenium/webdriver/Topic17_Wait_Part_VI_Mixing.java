@@ -121,6 +121,7 @@ public class Topic17_Wait_Part_VI_Mixing {
 			System.out.println("---------- Exeption of explicit -----------");
 		}
 		System.out.println("2.2 - End explicit wait :" + getDateTimeNow());
+		
 	}
 
 	@AfterClass
